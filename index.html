@@ -19,13 +19,13 @@
 
     <main id="invitacion" class="contenido-invitacion hidden">
 
-        <div class="photo-placeholder">
+        <div class="photo-placeholder animate-on-scroll">
             <img src="img/foto boda1.jpg" alt="Foto de la boda" class="wedding-photo">
         </div>
 
         <h2 class="announcement">¡Nos casamos!</h2>
 
-        <div class="contador-container">
+        <div class="contador-container animate-on-scroll">
             <div class="caja-tiempo"><span id="dias">00</span><label>Días</label></div>
             <div class="caja-tiempo"><span id="horas">00</span><label>Horas</label></div>
             <div class="caja-tiempo"><span id="minutos">00</span><label>Minutos</label></div>
@@ -44,20 +44,22 @@
             <p class="date-text">Sabado, 17 de Octubre de 2026</p>
         </div>
 
-        <div class="photo-placeholder">segunda foto</div>
+        <div class="photo-placeholder animate-on-scroll">segunda foto</div>
 
-        <section class="timeline-section">
+        <section class="timeline-section animate-on-scroll">
             <h3>CRONOGRAMA</h3>
             <div class="grid-schedule">
                 <div class="schedule-card">
                     <h4>Ceremonia Religiosa</h4>
                     <p><strong>HORA:</strong> 17:00</p>
                     <p><strong>LUGAR:</strong> Iglesia de San José</p>
+                    <a href="https://goo.gl/maps/1a2b3c4d5e6f7g8h9" target="_blank" class="btn-ubicacion">Ver en Google Maps</a>
                 </div>
                 <div class="schedule-card">
                     <h4>Recepción</h4>
                     <p><strong>HORA:</strong> 21:00</p>
                     <p><strong>LUGAR:</strong> Salón de Fiesta</p>
+                    <a href="https://maps.app.goo.gl/k5goxHvuFH7Twp6V8" target="_blank" class="btn-ubicacion">Ver en Google Maps</a>
                 </div>
             </div>
         </section>
@@ -74,7 +76,38 @@
                 <span class="circle color-6"></span>
             </div>
         </section>
+
+        <section class="gifts-section animate-on-scroll">
+            <h3>REGALOS</h3>
+            <p>Su presencia es nuestro mayor regalo, pero si desean tener un detalle con nosotros, pueden hacerlo de la siguiente manera:</p>
+            <button id="btn-regalos" class="btn-ingresar" style="margin-top: 15px;">ver opciones</button>
+        </section>
     </main>
+
+    <div id="modal-regalos" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close-button">&times;</span>
+            <h3 style="color: var(--verde-sabio); border-bottom: 1px solid var(--cream); padding-bottom: 10px">OPCIONES DE REGALO</h3>
+
+            <div class="modal-section">
+                <h4>Transferencia bancaria</h4>
+                <p><strong>Banco:</strong>BBVA</p>
+                <p><strong>Cuenta:</strong> 156 939 7186</p>
+                <p><strong>CLABE:</strong> 012 150 01569397186 4</p>
+                <p><strong>Titular:</strong> Martin Oswaldo Flores Aguilera</p>
+            </div>
+
+            <div class="modal-section" style="margin-top: 25px;">
+                <h4> Envio de Regalos</h4>
+                <p>Si prefieres enviarnos un detalle físico, puedes hacerlo a nuestra dirección:</p>
+                <p style="font-style: italic; color: var(--gris-medio);">
+                    privada de Genesis #45, Genesis<br>
+                    C.P. 33086<br>
+                    Delicias, Chihuahua.
+                </p>
+            </div>
+        </div>
+    </div>
 
     <script type="module" src="js/main.js"></script>
 </body>
