@@ -1,24 +1,24 @@
 import { Navigation } from './components/Navigation.js';
 import { Countdown } from './components/Countdown.js';
+import { Modal } from './components/Modal.js';
+import { ScrollAnimations } from './components/Animations.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    // 1. Inicializar Navegación entre Pantallas
+    // 1. Navegación
     new Navigation('btn-ingresar', 'pantalla-bienvenida', 'invitacion');
 
-    // 2. Definir la fecha objetivo de la boda (Modifica la fecha y hora aquí)
+    // 2. Contador
     const FECHA_BODA = "Oct 17, 2026 21:00:00";
-    
-    // Mapas de los IDs del DOM para el contador
-    const contadorIds = {
-        dias: 'dias',
-        horas: 'horas',
-        minutos: 'minutos',
-        segundos: 'segundos'
-    };
-
-    // 3. Inicializar y arrancar el contador
+    const contadorIds = { dias: 'dias', horas: 'horas', minutos: 'minutos', segundos: 'segundos' };
     const miContador = new Countdown(FECHA_BODA, contadorIds);
     miContador.start();
+
+    // 3. Inicializar Modal de Regalos
+    new Modal('btn-regalos', 'modal-regalos', 'close-modal');
+
+    // 4. Inicializar Animaciones de Scroll
+    const animaciones = new ScrollAnimations('.animate-on-scroll');
+    animaciones.init();
 
 });
