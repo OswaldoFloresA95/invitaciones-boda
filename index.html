@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <section id="pantalla-bienvenida" class="screen bienvenida">
+        <div class="welcome-container">
+            <p class="subtitle">BIENVENIDOS A LA CELEBRACION DE</p>
+            <h1 class="main-title">SALMA Y OSWALDO</h1>
+            <P class="tagline">Estás invitado a formar parte de nuestra historia.</P>
+            <button id="btn-ingresar" class="btn-ingresar">Ingresar a la invitación</button>
+        </div>
+    </section>
+
+    <main id="invitacion" class="contenido-invitacion hidden">
+
+        <div class="photo-placeholder">
+            <img src="img/foto boda1.jpg" alt="Foto de la boda" class="wedding-photo">
+        </div>
+
+        <h2 class="announcement">¡Nos casamos!</h2>
+
+        <div class="contador-container">
+            <div class="caja-tiempo"><span id="dias">00</span><label>Días</label></div>
+            <div class="caja-tiempo"><span id="horas">00</span><label>Horas</label></div>
+            <div class="caja-tiempo"><span id="minutos">00</span><label>Minutos</label></div>
+            <div class="caja-tiempo"><span id="segundos">00</span><label>Segundos</label></div>
+        </div>
+
+        <blockquote class="guest-words">
+            "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección. Queremos compartir con ustedes la alegría de unir nuestras vidas en matrimonio."
+        </blockquote>
+
+        <div class="calendar-section">
+            <div class="calendar-icon">
+                <div class="calendar-top"></div>
+                <div class="calendar-day">12</div>
+            </div>
+            <p class="date-text">Sabado, 17 de Octubre de 2026</p>
+        </div>
+
+        <div class="photo-placeholder">segunda foto</div>
+
+        <section class="timeline-section">
+            <h3>CRONOGRAMA</h3>
+            <div class="grid-schedule">
+                <div class="schedule-card">
+                    <h4>Ceremonia Religiosa</h4>
+                    <p><strong>HORA:</strong> 17:00</p>
+                    <p><strong>LUGAR:</strong> Iglesia de San José</p>
+                </div>
+                <div class="schedule-card">
+                    <h4>Recepción</h4>
+                    <p><strong>HORA:</strong> 21:00</p>
+                    <p><strong>LUGAR:</strong> Salón de Fiesta</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dress-code-section">
+            <h3>CÓDIGO DE VESTIMENTA</h3>
+            <p>Formal / Rigurosa Etiqueta. Agradecemos evitar el color blanco.</p>
+            <div class="palette-display">
+                <span class="circle color-1"></span>
+                <span class="circle color-2"></span>
+                <span class="circle color-3"></span>
+                <span class="circle color-4"></span>
+                <span class="circle color-5"></span>
+                <span class="circle color-6"></span>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

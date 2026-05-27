@@ -1,0 +1,234 @@
+:root {
+    --blanco: #ffffff;
+    --verde-sabio: #a6b8a6;
+    --oscuro: #2f3235;
+    --crema: #e6e2dc;
+    --gris-medio: #6b6f74;
+    --verde-pino: #053000;
+    --cafe: #4b2e0c;
+    --naranja-odcuro: #8b4000;
+    --verde-olivo: #556b2f;
+    --amarillo-oscuro: #b8860b;
+    --morado-apagado: #6a5acd;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: var(--crema);
+    color: var(--oscuro);
+    scroll-behavior: smooth;
+}
+
+/* Clases de Utilidad */
+.hidden {
+    display: none !important;
+}
+
+/* Pantalla de Bienvenida */
+.bienvenida {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-container .subtitle {
+    font-size: 11pt;
+    letter-spacing: 3px;
+    color: var(--gris-medio);
+}
+
+.welcome-container .main-title {
+    font-size: 32pt;
+    margin: 15px 0;
+    font-weight: normal;
+}
+
+.welcome-container .tagline {
+    color: var(--gris-medio);
+    font-style: italic;
+}
+
+.btn-ingresar {
+    margin-top: 30px;
+    padding: 14px 36px;
+    background-color: var(--verde-sabio);
+    color: var(--blanco);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-ingresar:hover {
+    background-color: var(--gris-medio);
+}
+
+/* Cuerpo de la Invitación */
+.contenido-invitacion {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--blanco);
+    padding: 40px 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.photo-container {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 4px; /* Mantiene la estética limpia y suave */
+    box-shadow: 0 4px 12px rgba(47, 50, 53, 0.08); /* Sutil sombra usando el oscuro de la paleta */
+}
+
+.wedding-photo {
+    width: 100%;
+    height: auto;       /* Mantiene la relación de aspecto original de tus fotos */
+    display: block;     /* Elimina el espacio en blanco inferior por defecto de los elementos inline */
+    object-fit: cover;  /* Si en un futuro limitas el alto, recorta elegantemente sin deformar */
+}
+
+.announcement {
+    text-align: center;
+    font-size: 24pt;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+
+/* Contador */
+.contador-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.caja-tiempo {
+    background: var(--verde-sabio);
+    color: var(--blanco);
+    padding: 15px 10px;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.caja-tiempo span {
+    font-size: 20pt;
+    font-weight: bold;
+    display: block;
+}
+
+.caja-tiempo label {
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Mensaje */
+.guest-words {
+    border-left: 3px solid var(--verde-sabio);
+    padding-left: 20px;
+    margin: 40px 10px;
+    font-style: italic;
+    color: var(--gris-medio);
+    line-height: 1.8;
+}
+
+/* Calendario */
+.calendar-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.calendar-icon {
+    width: 65px;
+    height: 65px;
+    border: 2px solid var(--oscuro);
+    border-radius: 8px;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+}
+
+.calendar-top {
+    background-color: var(--verde-sabio);
+    height: 18px;
+    border-bottom: 2px solid var(--oscuro);
+}
+
+.calendar-day {
+    font-size: 18pt;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.date-text {
+    font-size: 11pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Cronograma */
+.timeline-section, .dress-code-section {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid var(--crema);
+    padding-top: 30px;
+}
+
+.timeline-section h3, .dress-code-section h3 {
+    letter-spacing: 2px;
+    font-size: 14pt;
+    margin-bottom: 25px;
+}
+
+.grid-schedule {
+    display: flex;
+    gap: 20px;
+}
+
+.schedule-card {
+    flex: 1;
+    background: var(--crema);
+    padding: 20px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.schedule-card h4 {
+    margin-top: 0;
+    color: var(--verde-sabio);
+    border-bottom: 1px solid var(--gris-medio);
+    padding-bottom: 8px;
+}
+
+/* Círculos de Paleta */
+.palette-display {
+    margin-top: 20px;
+}
+
+.circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 8px;
+    border: 1px solid var(--gris-medio);
+}
+
+.color-1 { background-color: var(--verde-pino); }
+.color-2 { background-color: var(--cafe); }
+.color-3 { background-color: var(--naranja-odcuro); }
+.color-4 { background-color: var(--verde-olivo); }
+.color-5 { background-color: var(--amarillo-oscuro); }
+.color-6 { background-color: var(--morado-apagado); }
