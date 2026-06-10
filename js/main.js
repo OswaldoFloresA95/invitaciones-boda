@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navegacion = new Navigation('btn-ingresar', 'pantalla-bienvenida', 'invitacion');
 
     // 2. Contador
-    const FECHA_BODA = "Oct 17, 2026 21:00:00";
+    const FECHA_BODA = "Oct 16, 2026 21:00:00";
     const contadorIds = { dias: 'dias', horas: 'horas', minutos: 'minutos', segundos: 'segundos' };
     const miContador = new Countdown(FECHA_BODA, contadorIds);
     miContador.start();
