@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestra Boda</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
     <section id="pantalla-bienvenida" class="screen bienvenida">
         <div class="welcome-container">
-            <p class="subtitle">BIENVENIDOS A LA CELEBRACION DE</p>
-            <h1 class="main-title">SALMA Y OSWALDO</h1>
-            <P class="tagline">Estás invitado a formar parte de nuestra historia.</P>
-            <button id="btn-ingresar" class="btn-ingresar">Ingresar a la invitación</button>
+            <p class="subtitle">BIENVENIDOS A LA CELEBRACIÓN DE</p>
+            <h1 class="main-title">Salma & Oswaldo</h1>
+            <p class="tagline" style="margin-bottom: 20px;">Ingresa tu nombre o el de tu familia para encontrar tu
+                invitación:</p>
+
+            <input type="text" id="input-nombre" placeholder="Ej. Familia Flores" autocomplete="off"
+                style="padding: 12px; width: 100%; max-width: 280px; border: 1px solid var(--gris-medio); border-radius: 4px; text-align: center; font-family: inherit; font-size: 11pt;">
+
+            <p id="mensaje-error" class="hidden"
+                style="color: #d9534f; font-size: 9.5pt; margin-top: 10px; font-weight: bold;">
+                No encontramos ese nombre. Intenta escribirlo diferente.
+            </p>
+
+            <button id="btn-buscar" class="btn-ingresar" style="width: 100%; max-width: 280px;">Buscar
+                Invitación</button>
         </div>
     </section>
 
@@ -33,7 +46,8 @@
         </div>
 
         <blockquote class="guest-words">
-            "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección. Queremos compartir con ustedes la alegría de unir nuestras vidas en matrimonio."
+            "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección. Queremos
+            compartir con ustedes la alegría de unir nuestras vidas en matrimonio."
         </blockquote>
 
         <div class="calendar-section">
@@ -44,7 +58,9 @@
             <p class="date-text">Sabado, 17 de Octubre de 2026</p>
         </div>
 
-        <div class="photo-placeholder animate-on-scroll">segunda foto</div>
+        <div class="photo-placeholder animate-on-scroll">
+            <img src="img/foto boda1.jpg" alt="Foto de la boda" class="wedding-photo">
+        </div>
 
         <section class="timeline-section animate-on-scroll">
             <h3>CRONOGRAMA</h3>
@@ -53,41 +69,91 @@
                     <h4>Ceremonia Religiosa</h4>
                     <p><strong>HORA:</strong> 17:00</p>
                     <p><strong>LUGAR:</strong> Iglesia de San José</p>
-                    <a href="https://goo.gl/maps/1a2b3c4d5e6f7g8h9" target="_blank" class="btn-ubicacion">Ver en Google Maps</a>
+                    <a href="https://goo.gl/maps/1a2b3c4d5e6f7g8h9" target="_blank" class="btn-ubicacion">Ver en Google
+                        Maps</a>
                 </div>
                 <div class="schedule-card">
                     <h4>Recepción</h4>
                     <p><strong>HORA:</strong> 21:00</p>
                     <p><strong>LUGAR:</strong> Salón de Fiesta</p>
-                    <a href="https://maps.app.goo.gl/k5goxHvuFH7Twp6V8" target="_blank" class="btn-ubicacion">Ver en Google Maps</a>
+                    <a href="https://maps.app.goo.gl/k5goxHvuFH7Twp6V8" target="_blank" class="btn-ubicacion">Ver en
+                        Google Maps</a>
                 </div>
             </div>
         </section>
 
-        <section class="dress-code-section">
+        <section class="dress-code-section animate-on-scroll">
             <h3>CÓDIGO DE VESTIMENTA</h3>
             <p>Formal / Rigurosa Etiqueta. Agradecemos evitar el color blanco.</p>
             <div class="palette-display">
-                <span class="circle color-1"></span>
-                <span class="circle color-2"></span>
-                <span class="circle color-3"></span>
-                <span class="circle color-4"></span>
-                <span class="circle color-5"></span>
-                <span class="circle color-6"></span>
+                <div class="color-item">
+                    <span class="circle color-1"></span>
+                    <span class="color-name">Verde pino</span>
+                </div>
+                <div class="color-item">
+                    <span class="circle color-2"></span>
+                    <span class="color-name">Cafe</span>
+                </div>
+                <div class="color-item">
+                    <span class="circle color-3"></span>
+                    <span class="color-name">Naranja oscuro</span>
+                </div>
+                <div class="color-item">
+                    <span class="circle color-4"></span>
+                    <span class="color-name">Verde olivo</span>
+                </div>
+                <div class="color-item">
+                    <span class="circle color-5"></span>
+                    <span class="color-name">Amarillo oscuro</span>
+                </div>
+                <div class="color-item">
+                    <span class="circle color-6"></span>
+                    <span class="color-name">Morado apagado</span>
+                </div>
             </div>
         </section>
 
         <section class="gifts-section animate-on-scroll">
             <h3>REGALOS</h3>
-            <p>Su presencia es nuestro mayor regalo, pero si desean tener un detalle con nosotros, pueden hacerlo de la siguiente manera:</p>
+            <p>Su presencia es nuestro mayor regalo, pero si desean tener un detalle con nosotros, pueden hacerlo de la
+                siguiente manera:</p>
             <button id="btn-regalos" class="btn-ingresar" style="margin-top: 15px;">ver opciones</button>
+        </section>
+
+        <div class="photo-placeholder animate-on-scroll" style="margin-top: 50px;">
+            <img src="img/foto boda1.jpg" alt="Foto de la boda" class="wedding-photo">
+        </div>
+
+        <section class="rsvp-section animate-on-scroll"
+            style="text-align: center; margin-top: 30px; margin-bottom: 50px;">
+            <h3 style="letter-spacing: 2px; font-size: 14pt; margin-bottom: 15px;">ASISTENCIA</h3>
+
+            <p id="mensaje-bienvenida-rsvp"
+                style="color: var(--gris-medio); font-style: italic; margin-bottom: 25px; padding: 0 15px;"></p>
+
+            <form id="rsvp-form" style="display: flex; flex-direction: column; align-items: center;">
+                <input type="hidden" id="nombre-invitado" value="">
+
+                <label for="cantidad-pases"
+                    style="font-size: 10pt; font-weight: bold; margin-bottom: 10px; color: var(--oscuro);">Personas a
+                    confirmar:</label>
+                <select id="cantidad-pases"
+                    style="padding: 10px; width: 100%; max-width: 250px; border: 1px solid var(--gris-medio); border-radius: 4px; margin-bottom: 20px; font-family: inherit; font-size: 11pt; text-align: center;">
+                </select>
+
+                <button type="button" id="btn-enviar-rsvp" class="btn-ingresar"
+                    style="width: 100%; max-width: 250px; margin-top: 0;">
+                    Confirmar por WhatsApp
+                </button>
+            </form>
         </section>
     </main>
 
     <div id="modal-regalos" class="modal-overlay hidden">
         <div class="modal-content">
             <span id="close-modal" class="close-button">&times;</span>
-            <h3 style="color: var(--verde-sabio); border-bottom: 1px solid var(--cream); padding-bottom: 10px">OPCIONES DE REGALO</h3>
+            <h3 style="color: var(--verde-sabio); border-bottom: 1px solid var(--cream); padding-bottom: 10px">OPCIONES
+                DE REGALO</h3>
 
             <div class="modal-section">
                 <h4>Transferencia bancaria</h4>
@@ -111,4 +177,5 @@
 
     <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
