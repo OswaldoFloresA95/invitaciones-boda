@@ -60,9 +60,14 @@ export const listaInvitados = [
         nombreMostrar: "Juan Carlos Franco"
     },
     { 
-        id: "", 
-        pases: 1, 
-        nombreMostrar: "" 
+        id: "Ana Aguilera", 
+        pases: 5, 
+        nombreMostrar: "Tía Ana" 
+    },
+    { 
+        id: "Miriam Aguilera", 
+        pases: 4, 
+        nombreMostrar: "Tía Liz" 
     },
 
 ];
