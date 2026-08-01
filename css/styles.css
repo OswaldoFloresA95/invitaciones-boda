@@ -7,7 +7,6 @@
     --verde-pino: #053000;
     --cafe: #4b2e0c;
     --naranja-odcuro: #8b4000;
-    --verde-olivo: #556b2f;
     --amarillo-oscuro: #b8860b;
     --morado-apagado: #6a5acd;
 }
@@ -249,9 +248,8 @@ body, html {
 .color-1 { background-color: var(--verde-pino); }
 .color-2 { background-color: var(--cafe); }
 .color-3 { background-color: var(--naranja-odcuro); }
-.color-4 { background-color: var(--verde-olivo); }
-.color-5 { background-color: var(--amarillo-oscuro); }
-.color-6 { background-color: var(--morado-apagado); }
+.color-4 { background-color: var(--amarillo-oscuro); }
+.color-5 { background-color: var(--morado-apagado); }
 
 .btn-ubicacion {
     display: inline-block;
