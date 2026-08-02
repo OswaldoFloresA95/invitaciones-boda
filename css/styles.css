@@ -369,3 +369,16 @@ body, html {
 .close-btn:hover {
     color: var(--oscuro);
 }
+
+/* Estilo específico para el botón de la app de fotos */
+.btn-wedshoots {
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Efecto al pasar el mouse */
+.btn-wedshoots:hover {
+    background-color: var(--verde-sabio);
+}
