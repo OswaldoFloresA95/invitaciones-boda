@@ -2,17 +2,17 @@ export const listaInvitados = [
     { 
         id: "erika aguilera", 
         pases: 3, 
-        nombreMostrar: "Erika Aguilera" 
+        nombreMostrar: "Mamá" 
     },
     { 
         id: "veronica salas", 
         pases: 3, 
-        nombreMostrar: "Veronica Salas" 
+        nombreMostrar: "Veronica" 
     },
     { 
         id: "valeria salas", 
         pases: 2, 
-        nombreMostrar: "Valeria Salas" 
+        nombreMostrar: "Valeria" 
     },
     { 
         id: "familia armendariz", 
@@ -22,42 +22,42 @@ export const listaInvitados = [
     { 
         id: "yolando romero", 
         pases: 4, 
-        nombreMostrar: "Yolando Romero" 
+        nombreMostrar: "Yolando" 
     },
     { 
         id: "diana romero", 
         pases: 2, 
-        nombreMostrar: "Diana Romero" 
+        nombreMostrar: "Diana" 
     },
     { 
         id: "alex romero", 
         pases: 2, 
-        nombreMostrar: "Alex Romero"
+        nombreMostrar: "Alex"
     },
     { 
         id: "mayoy romero", 
         pases: 4, 
-        nombreMostrar: "Mayoy Romero" 
+        nombreMostrar: "Mayoy" 
     },
     { 
         id: "araceli salas", 
         pases: 5, 
-        nombreMostrar: "Araceli Salas" 
+        nombreMostrar: "Araceli" 
     },
     { 
         id: "rolando salas", 
         pases: 3, 
-        nombreMostrar: "Rolando Salas" 
+        nombreMostrar: "Rolando" 
     },
     { 
         id: "mariano franco", 
         pases: 2, 
-        nombreMostrar: "Mariano Franco" 
+        nombreMostrar: "Mariano " 
     },
     { 
         id: "juan carlos franco", 
         pases: 4, 
-        nombreMostrar: "Juan Carlos Franco"
+        nombreMostrar: "Juan Carlos"
     },
     { 
         id: "Ana Aguilera", 
@@ -70,9 +70,89 @@ export const listaInvitados = [
         nombreMostrar: "Tía Liz" 
     },
     { 
+        id: "Liliana Garcia", 
+        pases: 2, 
+        nombreMostrar: "Liliana" 
+    },
+    { 
+        id: "Juan Acosta", 
+        pases: 2, 
+        nombreMostrar: "Juan" 
+    },
+    { 
+        id: "Eli Garcia", 
+        pases: 2, 
+        nombreMostrar: "Eli" 
+    },
+    { 
+        id: "Francisco Ponce", 
+        pases: 2, 
+        nombreMostrar: "Francisco" 
+    },
+    { 
+        id: "Karla Macias", 
+        pases: 2, 
+        nombreMostrar: "Karla" 
+    },
+    { 
+        id: "Tania Escudero", 
+        pases: 2, 
+        nombreMostrar: "Tania" 
+    },
+    { 
+        id: "Miguel Ortiz", 
+        pases: 2, 
+        nombreMostrar: "Miguel" 
+    },
+    { 
+        id: "Mario Diaz", 
+        pases: 2, 
+        nombreMostrar: "Mario" 
+    },
+    { 
+        id: "Eliers Garcia", 
+        pases: 2, 
+        nombreMostrar: "Eliers" 
+    },{ 
+        id: "Roberto Gabriel", 
+        pases: 2, 
+        nombreMostrar: "Tio Beto" 
+    },
+    { 
+        id: "Roberto Casas", 
+        pases: 2, 
+        nombreMostrar: "Abuelito" 
+    },
+    { 
+        id: "Gloria Quintamar", 
+        pases: 2, 
+        nombreMostrar: "Abuelita" 
+    },
+    { 
+        id: "Mauro Mogez del campo", 
+        pases: 2, 
+        nombreMostrar: "Mauro" 
+    },
+    { 
+        id: "Laura Jaramillo", 
+        pases: 2, 
+        nombreMostrar: "Laura" 
+    },
+    { 
+        id: "Martin Flores", 
+        pases: 2, 
+        nombreMostrar: "Papá" 
+    },
+    { 
+        id: "Mario Muñoz", 
+        pases: 2, 
+        nombreMostrar: "Mario" 
+    },
+    { 
         id: "", 
-        pases: 4, 
+        pases: 2, 
         nombreMostrar: "" 
     },
+
 
 ];
