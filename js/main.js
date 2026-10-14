@@ -15,8 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const miContador = new Countdown(FECHA_BODA, contadorIds);
     miContador.start();
 
-    // 3. Inicializar Modal de Regalos
+    // 3. Modales y Animaciones
     new Modal('btn-regalos', 'modal-regalos', 'close-modal');
+    new Modal('btn-enviar-rsvp', 'modal-confirmacion', 'close-confirmacion');
 
     // 4. Inicializar Animaciones de Scroll
     const animaciones = new ScrollAnimations('.animate-on-scroll');
@@ -68,8 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 5. EVENTO PARA ENVIAR WHATSAPP
-    document.getElementById('btn-enviar-rsvp').addEventListener('click', () => {
+    // 5. EVENTOS PARA ENVIAR WHATSAPP (NOVIA O NOVIO)
+
+    function enviarWhatsApp(numeroDestino) {
         const nombreConfirmado = document.getElementById('nombre-invitado').value;
         const pasesConfirmados = document.getElementById('cantidad-pases').value;
         
@@ -77,10 +79,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const mensaje = `¡Hola! Soy ${nombreConfirmado} y confirmo la asistencia de ${pasesConfirmados} persona(s) a la boda.`;
         
         // Redirigir a WhatsApp
-        const numeroWhatsApp = "526391744293";
-        const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
-        
+        const urlWhatsApp = `https://wa.me/${numeroDestino}?text=${encodeURIComponent(mensaje)}`;
         window.open(urlWhatsApp, '_blank');
-    });
+        
+        // Cerrar el modal automáticamente después de dar clic
+        document.getElementById('modal-confirmacion').classList.add('hidden');
+    }
+
+    // Ingresa los números reales (Recuerda poner el 52 antes de los 10 dígitos)
+    const telSalma = "526391107943"; 
+    const telOswaldo = "526391744293";
+
+    // Asignar los eventos a los nuevos botones
+    document.getElementById('btn-wa-novia').addEventListener('click', () => enviarWhatsApp(telSalma));
+    document.getElementById('btn-wa-novio').addEventListener('click', () => enviarWhatsApp(telOswaldo));
 
 });

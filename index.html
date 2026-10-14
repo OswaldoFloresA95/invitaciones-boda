@@ -148,6 +148,28 @@
             </form>
         </section>
 
+        <!-- VENTANA MODAL DE CONFIRMACIÓN (A QUIÉN AVISAR) -->
+    <div id="modal-confirmacion" class="modal-overlay hidden">
+        <div class="modal-content" style="text-align: center;">
+            <span id="close-confirmacion" class="close-btn">&times;</span>
+            <h3 style="color: var(--verde-sabio); margin-bottom: 15px;">¿A quién deseas confirmar?</h3>
+            
+            <p style="font-size: 10pt; color: var(--gris-medio); margin-bottom: 25px;">
+                Elige a quién le enviarás tu mensaje de confirmación por WhatsApp.
+            </p>
+
+            <!-- Botones de elección -->
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <button id="btn-wa-novia" class="btn-ingresar" style="margin: 0; width: 100%;">
+                    Confirmar a Salma
+                </button>
+                <button id="btn-wa-novio" class="btn-ingresar btn-wedshoots" style="margin: 0; width: 100%;">
+                    Confirmar a Oswaldo
+                </button>
+            </div>
+        </div>
+    </div>
+
         <section class="wedshoots-section animate-on-scroll" style="text-align: center; margin-top: 50px; padding: 30px 10px; border-top: 1px solid var(--crema);">
             <h3 style="letter-spacing: 2px; font-size: 14pt; margin-bottom: 15px;">COMPARTE TUS FOTOS</h3>
             

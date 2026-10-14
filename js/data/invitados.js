@@ -17,7 +17,7 @@ export const listaInvitados = [
     { 
         id: "familia armendariz", 
         pases: 3, 
-        nombreMostrar: "Familia Armendariz" 
+        nombreMostrar: "Hermana y Fredy" 
     },
     { 
         id: "yolando romero", 
@@ -116,7 +116,7 @@ export const listaInvitados = [
     },{ 
         id: "Roberto Gabriel", 
         pases: 2, 
-        nombreMostrar: "Tio Beto" 
+        nombreMostrar: "Beto y zuline" 
     },
     { 
         id: "Roberto Casas", 
@@ -148,6 +148,12 @@ export const listaInvitados = [
         pases: 2, 
         nombreMostrar: "Mario" 
     },
+    { 
+        id: "Alexis Maldonado", 
+        pases: 2, 
+        nombreMostrar: "Hermano"
+    },
+
     { 
         id: "prueba", 
         pases: 1, 
