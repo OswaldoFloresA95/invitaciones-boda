@@ -6,9 +6,12 @@
     --gris-medio: #6b6f74;
     --verde-pino: #053000;
     --cafe: #4b2e0c;
-    --naranja-odcuro: #8b4000;
+    --verde-oliva: #6b8e23;
+    --gris: #808080;
     --amarillo-oscuro: #b8860b;
     --morado-apagado: #6a5acd;
+    --lavanda: #9f84ff;
+    --riverside: #5484ba;
 }
 
 *, *::before, *::after {
@@ -250,9 +253,12 @@ body, html {
 
 .color-1 { background-color: var(--verde-pino); }
 .color-2 { background-color: var(--cafe); }
-.color-3 { background-color: var(--naranja-odcuro); }
+.color-3 { background-color: var(--verde-oliva); }
 .color-4 { background-color: var(--amarillo-oscuro); }
 .color-5 { background-color: var(--morado-apagado); }
+.color-6 { background-color: var(--gris); }
+.color-7 { background-color: var(--lavanda); }
+.color-8 { background-color: var(--riverside); }
 
 .btn-ubicacion {
     display: inline-block;
