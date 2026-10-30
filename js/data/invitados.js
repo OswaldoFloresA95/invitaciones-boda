@@ -303,6 +303,11 @@ export const listaInvitados = [
         pases: 2, 
         nombreMostrar: "Abuelita" 
     },
+    { 
+        id: "Familia Salas Zapata", 
+        pases: 4, 
+        nombreMostrar: "Tio chapis" 
+    },
 
 
 ];
