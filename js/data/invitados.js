@@ -7,7 +7,7 @@ export const listaInvitados = [
     { 
         id: "veronica salas", 
         pases: 3, 
-        nombreMostrar: "Veronica" 
+        nombreMostrar: "Mamá" 
     },
     { 
         id: "valeria salas", 
@@ -145,7 +145,7 @@ export const listaInvitados = [
     },
     { 
         id: "Mario Muñoz", 
-        pases: 2, 
+        pases: 1, 
         nombreMostrar: "Mario" 
     },
     { 
@@ -153,11 +153,130 @@ export const listaInvitados = [
         pases: 2, 
         nombreMostrar: "Hermano"
     },
-
     { 
         id: "prueba", 
         pases: 1, 
         nombreMostrar: "Prueba" 
+    },
+    { 
+        id: "Aram Salas", 
+        pases: 2, 
+        nombreMostrar: "Hermano"
+    },
+    { 
+        id: "Familia Orozco Salas", 
+        pases: 5, 
+        nombreMostrar: "Tia Araceli" 
+    },
+    { 
+        id: "Familia Salas Teran", 
+        pases: 3, 
+        nombreMostrar: "Tio Rolando" 
+    },
+    { 
+        id: "Familia Ramirez Salas", 
+        pases: 5, 
+        nombreMostrar: "Anais" 
+    },
+    { 
+        id: "Amada Magallanes", 
+        pases: 2, 
+        nombreMostrar: "Amada" 
+    },
+    { 
+        id: "Familia Vazquez Lara", 
+        pases: 3, 
+        nombreMostrar: "Madrina" 
+    },
+    { 
+        id: "Valeria Vazquez", 
+        pases: 2, 
+        nombreMostrar: "Valeria" 
+    },
+    { 
+        id: "Margarita Romero", 
+        pases: 4, 
+        nombreMostrar: "Margarita" 
+    },
+    { 
+        id: "Diana Romero", 
+        pases: 3, 
+        nombreMostrar: "Diana" 
+    },
+    { 
+        id: "Alex Romero", 
+        pases: 2, 
+        nombreMostrar: "Alex" 
+    },
+    { 
+        id: "Yolanda Romero", 
+        pases: 4, 
+        nombreMostrar: "Yolanda" 
+    },
+    { 
+        id: "Olivia Mares", 
+        pases: 2, 
+        nombreMostrar: "Olivia" 
+    },
+    { 
+        id: "Ariatna Esquivel", 
+        pases: 2, 
+        nombreMostrar: "Ariatna" 
+    },
+    { 
+        id: "Karina Sanchez", 
+        pases: 2, 
+        nombreMostrar: "Karina" 
+    },
+    { 
+        id: "Veronica Dominguez", 
+        pases: 2, 
+        nombreMostrar: "Veronica" 
+    },
+    { 
+        id: "Ana Molinar", 
+        pases: 2, 
+        nombreMostrar: "Ana"
+    },
+    { 
+        id: "Abigail Orozco", 
+        pases: 2, 
+        nombreMostrar: "Abigail" 
+    },
+    { 
+        id: "Frida Valles", 
+        pases: 2, 
+        nombreMostrar: "Frida" 
+    },
+    { 
+        id: "Imelda Lopez", 
+        pases: 3, 
+        nombreMostrar: "Imelda" 
+    },
+    { 
+        id: "Jenny Morales", 
+        pases: 2, 
+        nombreMostrar: "Jenny" 
+    },
+    { 
+        id: "Manuel Almeida", 
+        pases: 2, 
+        nombreMostrar: "Manuel" 
+    },
+    { 
+        id: "Denisse Alvidrez", 
+        pases: 2, 
+        nombreMostrar: "Denisse" 
+    },
+    { 
+        id: "Rebeca Lara", 
+        pases: 2, 
+        nombreMostrar: "Rebeca" 
+    },
+    { 
+        id: "Julio Romero", 
+        pases: 7, 
+        nombreMostrar: "Julio" 
     },
 
 
