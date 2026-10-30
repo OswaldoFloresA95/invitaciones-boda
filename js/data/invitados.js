@@ -293,6 +293,16 @@ export const listaInvitados = [
         pases: 1, 
         nombreMostrar: "Papá carlos" 
     },
+    { 
+        id: "luis cordero", 
+        pases: 2, 
+        nombreMostrar: "Luis" 
+    },
+    { 
+        id: "Soledad Lopez", 
+        pases: 2, 
+        nombreMostrar: "Abuelita" 
+    },
 
 
 ];
