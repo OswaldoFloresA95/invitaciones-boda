@@ -278,6 +278,21 @@ export const listaInvitados = [
         pases: 7, 
         nombreMostrar: "Julio" 
     },
+    { 
+        id: "Martha Romero", 
+        pases: 3, 
+        nombreMostrar: "Martha" 
+    },
+    { 
+        id: "Saul Alatorre", 
+        pases: 1, 
+        nombreMostrar: "Papá" 
+    },
+    { 
+        id: "Carlos salas", 
+        pases: 1, 
+        nombreMostrar: "Papá carlos" 
+    },
 
 
 ];
