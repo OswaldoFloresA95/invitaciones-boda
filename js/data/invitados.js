@@ -129,7 +129,7 @@ export const listaInvitados = [
         nombreMostrar: "Abuelita" 
     },
     { 
-        id: "Mauro Mogez del campo", 
+        id: "Mauro Mogezdelcampo", 
         pases: 2, 
         nombreMostrar: "Mauro" 
     },
