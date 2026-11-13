@@ -308,6 +308,16 @@ export const listaInvitados = [
         pases: 4, 
         nombreMostrar: "Tio chapis" 
     },
+    { 
+        id: "Ana Hernandez", 
+        pases: 2, 
+        nombreMostrar: "Ana" 
+    },
+    { 
+        id: "Mirna Maldonado", 
+        pases: 3, 
+        nombreMostrar: "Mirna" 
+    },
 
 
 ];
