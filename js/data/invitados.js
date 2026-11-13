@@ -309,9 +309,9 @@ export const listaInvitados = [
         nombreMostrar: "Tio chapis" 
     },
     { 
-        id: "Ana Hernandez", 
+        id: "Veronica Hernandez", 
         pases: 2, 
-        nombreMostrar: "Ana" 
+        nombreMostrar: "Veronica" 
     },
     { 
         id: "Mirna Maldonado", 
